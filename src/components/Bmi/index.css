@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-container{
+    background-color: #010e1a;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.weight-containar{
+    width: 80%;
+    padding: 10px;
+    margin-top: 40px;
+}
+.weight-card{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width: 980px) {
+    .weight-card{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+}
+.weight-card-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weight-details{
+    color: #fff;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.under-weight-value{
+    color: #fff;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.under-weight-value{
+    margin-top: 8px;
+}
+.weight-graph{
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+.box-1{
+    height: 100%;
+    width: 18%;
+    background-color: #942626;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.box-2{
+    height: 100%;
+    width: 20%;
+    background-color: #269441;
+}
+.box-3{
+    height: 100%;
+    width: 25%;
+    background-color: #642694;
+}
+.box-4{
+    height: 100%;
+    width: 20%;
+    background-color: #942680;
+}
+.box-5{
+    height: 100%;
+    width: 20%;
+    background-color: #942626;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.weight-height-display-container{
+    height: 400px;
+    background-color: #05213b;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.multi-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.height-card{
+    height: 60%;
+    width: 34%;
+    background-color: #010e1a;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.weight-card-container{
+    margin-right: 0;
+}
+.base-value{
+    font-size: 15px;
+}
+.height-tittle{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.height-value{
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.btn{
+    height: 35px;
+    width: 35px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 15px 10px 0 0;
+    color: #fff;
+    background-color: #010e1a;
+    outline: 2px solid #fff;
+}
+.bmi-result{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+}
